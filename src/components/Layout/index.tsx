@@ -3,6 +3,8 @@ import React from 'react';
 import MobileHeader from '../MobileHeader';
 import DesktopHeader from '../DesktopHeader';
 
+import AdBanner from '../AdBanner'
+
 import { Container } from './styles';
 import LeftColumn from '../LeftColumn';
 import MiddleColumn from '../MiddleColumn';
@@ -14,6 +16,11 @@ const Layout: React.FC = () => {
       <main>
         <MobileHeader/>
         <DesktopHeader/>
+
+        <span>
+          <AdBanner/>
+        </span>
+
         <LeftColumn/>
         <MiddleColumn/>
         <RightColumn/>
