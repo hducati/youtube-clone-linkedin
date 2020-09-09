@@ -31,7 +31,7 @@ class index extends Component {
                 <span>Notificações</span>
               </button>
               <button>
-                <ProfileCircle src="http://github.com/guilhermerodz.png"/>
+                <ProfileCircle src="http://github.com/hducati.png"/>
                 <span>
                   Eu <CaretDownIcon/>
                 </span>
