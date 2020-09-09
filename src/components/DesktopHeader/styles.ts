@@ -95,15 +95,18 @@ const generalIconCSS = css`
 export const HomeIcon = styled(AiFillHome)`
   ${generalIconCSS}
 `;
+
 export const NotificationsIcon = styled(AiOutlineBell)`
   ${generalIconCSS}
 `;
+
 export const ProfileCircle = styled.img`
   width: 24px;
   height: 24px;
   border-radius: 50%;
   border: 1px solid var(--color-icons);
 `;
+
 export const CaretDownIcon = styled(AiFillCaretDown)`
   width: 16px;
   height: 16px;
